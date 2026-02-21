@@ -1,0 +1,33 @@
+Image Encryption Security Report
+Generated : 2026-02-21 21:27:28
+====================================================
+
+Shannon Entropy  [ideal cipher ≈ 8.0 bits]
+  Plain     : 6.827214 bits
+  Encrypted : 7.999270 bits
+  Decrypted : 6.827214 bits
+
+Correlation Coefficients  [ideal cipher ≈ 0]
+  Plain     H=+0.782556  V=+0.835671  D=+0.725083
+  Encrypted H=-0.000049  V=+0.000004  D=-0.000040
+
+NPCR & UACI  (original vs encrypted)
+  NPCR : 99.5853%   [ideal ≈ 99.6094%]
+  UACI : 30.0864%   [ideal ≈ 33.4635%]
+
+PSNR  (original vs decrypted)
+  PSNR : ∞ (perfect)
+
+Attack Robustness — Cropping 25%
+  NPCR : 6.2260%   UACI : 3.1289%
+
+Attack Robustness — Salt & Pepper Noise 5%
+  NPCR : 4.8599%   UACI : 2.4247%
+
+Execution Time
+  Key generation        : 0.0021s
+  Phase 1 — Confusion   : 0.1154s
+  Phase 2 — Diffusion   : 0.0033s
+  Phase 3 — ECC Encryption: 77.8635s
+  Phase 4 — GA Optimization: 14.6534s
+  Decryption            : 49.3252s

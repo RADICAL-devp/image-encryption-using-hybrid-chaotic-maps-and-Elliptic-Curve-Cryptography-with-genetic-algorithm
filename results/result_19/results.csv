@@ -1,0 +1,25 @@
+Metric,Value,Ideal
+Entropy (Plain),6.544940,—
+Entropy (Encrypted),7.999243,~8.0
+Entropy (Decrypted),6.544940,—
+Correlation H (Plain),+0.945518,—
+Correlation V (Plain),+0.951644,—
+Correlation D (Plain),+0.919436,—
+Correlation H (Encrypted),-0.000016,~0
+Correlation V (Encrypted),-0.000006,~0
+Correlation D (Encrypted),-0.000058,~0
+NPCR (%),99.6304,~99.6094
+UACI (%),31.5446,~33.4635
+PSNR (dB),∞ (perfect),inf (perfect)
+NPCR Cropping (%),6.2298,—
+UACI Cropping (%),3.1419,—
+NPCR Noise (%),4.8546,—
+UACI Noise (%),2.4510,—
+,,
+Timing,Seconds,
+Key generation,0.0014,
+Phase 1 — Confusion,0.2025,
+Phase 2 — Diffusion,0.0034,
+Phase 3 — ECC Encryption,69.4002,
+Phase 4 — GA Optimization,13.4883,
+Decryption,37.7205,
