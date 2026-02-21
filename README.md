@@ -47,7 +47,9 @@
 
 This project implements a **hybrid chaos–cryptography image encryption framework** inspired by:
 
-> *"Novel image encryption algorithm utilizing hybrid chaotic maps and Elliptic Curve Cryptography with genetic algorithm"*
+> *"Novel image encryption algorithm utilizing hybrid chaotic maps and Elliptic Curve Cryptography with genetic algorithm"
+>
+> -Kartikey Pandey, Deepmala Sharma*
 
 The system encrypts grayscale images through **four tightly coupled cryptographic phases**, each targeting a specific security primitive:
 
