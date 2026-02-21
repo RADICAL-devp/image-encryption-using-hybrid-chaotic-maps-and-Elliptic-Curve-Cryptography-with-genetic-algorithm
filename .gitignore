@@ -1,1 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# macOS
 .DS_Store
+
+# PyCharm
+.idea/
+
+# Results (optional but recommended)
+results/
