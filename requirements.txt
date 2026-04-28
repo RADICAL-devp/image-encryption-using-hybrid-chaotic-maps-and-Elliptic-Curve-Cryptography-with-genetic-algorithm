@@ -1,4 +1,4 @@
 numpy
 opencv-python
 matplotlib
-numba          # optional but strongly recommended — JIT-compiles Lorenz & LPWLCM loops
+python-docx
